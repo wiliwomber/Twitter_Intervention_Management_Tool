@@ -1,0 +1,52 @@
+@import '../App.scss';
+
+.sidebar {
+  min-width: 277px;
+  max-width: 277px;
+
+  height: 100%;
+  background-color: $blue;
+}
+
+.sidebar-header {
+  padding: 20px;
+  margin-bottom: 3rem;
+}
+
+.sidebar-menu {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.is-active {
+  .sidebar-lists-item-title {
+    background: $lightGrey;
+  }
+}
+
+.sidebar-lists-item, .sidebar-credentials-item, .sidebar-responses-item{
+  outline: none;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  :hover {
+    background: #97cafd;
+  }
+}
+
+
+.sidebar-lists-item-title {
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  padding: 0.2rem;
+  padding-left: 0.4rem;
+}
+
+.add-project-button {
+  border-color: #edf2f7;
+  color: #edf2f7!important;
+  &:hover {
+    color: $blue!important;
+  }
+}
