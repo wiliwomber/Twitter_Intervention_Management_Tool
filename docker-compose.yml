@@ -9,14 +9,14 @@ services:
       dockerfile: Dockerfile
       context: ./nginx
     ports:
-      - "80:80"
+      # - "80:80"
       - "443:443"
   client:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    ports: # added for testing
-      - "3000:3000"
+    # ports: # added for testing
+    #   - "3000:3000"
     volumes:
       - /app/node_modules # Inside the container, don't try to override this folder, just leave as is
     restart: on-failure
