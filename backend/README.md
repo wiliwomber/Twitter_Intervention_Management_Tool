@@ -6,9 +6,9 @@ A simple management tool for the creation of twitter bots for research.
 
 Prerequites:
 - Node.js
-- Brew
+- Brew (*only for isntallation of MongoDB*)
 
-Run `yarn install`
+Run `yarn install` (*only run yarn for windows*)
 
 ## Install MongoDB
 
