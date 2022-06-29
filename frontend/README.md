@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-*for windows: yarn and then yarn start*
+*for linux & windows: yarn and then yarn start*
 
 ### `yarn start`
 
