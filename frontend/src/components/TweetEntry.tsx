@@ -37,9 +37,9 @@ const TweetEntry = (props: TweetProps) => {
   useEffect(() => {
     const getResponses = async () => {
       const data = await dispatch<any>(fetchResponses())
-      if (data) {
-        setResponses(data)
-        setSelectedResponse(data[0].id)
+      if (data.length) {
+          setResponses(data) 
+          setSelectedResponse(data[0].id)  
       }
     }
     getResponses()
